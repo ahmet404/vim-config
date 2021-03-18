@@ -1,0 +1,14 @@
+a = 15
+b = 10
+print(i)
+
+LUAS = a * b
+
+print(d)
+a = 5
+b = 7
+print(a + b)
+
+def funcname(self, parameter_list):
+    raise NotImplementedError
+

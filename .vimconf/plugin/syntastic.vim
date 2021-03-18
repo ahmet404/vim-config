@@ -1,0 +1,28 @@
+" ==============
+"   SYNTASTIC
+" ==============
+if exists('g:plugs["syntastic"]')
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:airline#extensions#syntastic#enabled = 1
+let g:syntastic_aggregate_errors = 1
+let g:syntastic_python_checkers = ['pylint']
+let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
+let g:syntastic_javascript_checkers = ['jslint', 'jsonlint', 'gjslint']
+let g:syntastic_html_tidy_exec = 'tidy5'
+
+
+
+let g:syntastic_enable_signs=1
+let g:syntastic_error_symbol = '✗✗'
+let g:syntastic_style_error_symbol = '✠✠'
+let g:syntastic_warning_symbol = '∆∆'
+let g:syntastic_style_warning_symbol = '≈≈'
+
+endif

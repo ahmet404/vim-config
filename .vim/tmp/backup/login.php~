@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>Login - Admin</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome/css/all.css">
+  </head>
+  <body>
+  <div class="wp-login">
+    <div class="fm-login">
+      <h2>Administrator</h2>
+      <form action="" method="POST" autocomplete="off">
+        Username: 
+        <input type="text" name="user" required>
+        Password: 
+        <input type="password" name="pass" required>
+        <button type="submit" name="login"><i class="fas fa-sign-in"></i> Submit</button>
+<?php
+if(isset($_GET['error'])){
+  echo "<p class='error'>* Username atau password salah!</p>";
+}
+?>
+      </form>
+    </div> 
+  </div>
+  </body>
+</html>
+<?php
+require("koneksi.php");
+if(isset($_POST['login'])){
+	$user = $_POST['user'];
+	$pass = $_POST['pass'];
+	$sql= $koneksi->query("SELECT * FROM admin_login WHERE username = '$user' AND password = '$pass'");
+    $row = $sql->fetch_assoc();
+	if($sql->num_rows > 0){
+		session_start();
+		$_SESSION['login'] = $user;
+        $_SESSION['name'] = $row['name'];
+		header('location:admin/index.php');
+	} else{
+		header('location:login.php?error');
+	}
+}
+?>

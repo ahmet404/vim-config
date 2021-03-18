@@ -1,0 +1,7 @@
+// Function Preloader
+$(document).ready(function(){
+      $(".preloader").fadeOut(1000);
+    });
+
+// Function Dropdown
+

@@ -1,0 +1,30 @@
+// Ini comment satu baris
+/* Tipe data di JavaScript adalah:
+1. String adalah tipe data berupa tesktual yang berisi gabungan karakter. String dibuat menggunakan tanda kutip tunggal atau ganda di sekitar satu atau lebih karakter.
+2. Number adalah tipe data angka berupa angka positif atau negatif dengan atau tanpa desimal, atau angka yang ditulis menggunakan notasi eksponensial. Tipe data ini juga mencakup beberapa nilai khusus, yaitu Infinity, -Infinity dan NaN.
+3. Boolean adalah tipe data untuk merepresentasikan entitas logika yang hanya memiliki 2 nilai yaitu True dan False.
+4. Arrays adalah tipe data yang dapat menampung banyak nilai dan berbagai tipe data dalam satu variabel.
+5. Objects adalah tipe data yang umumnya memiliki kumpulan properti, dimana didalam properti tersebut didefisinikan dengan pasangan Key (kunci) dan Value (Nilai).
+6. Undefined madalah tipe data yang ada pada suatu variabel yang tidak memiliki nilai, dimana variable sudah dideklarasi namun tidak di inisialisasi.
+7. Null adalah tipe data khusus yang hanya memiliki satu nilai yaitu nilai nol. Nilai nol berarti tidak ada nilai.
+8. Symbol adalah tipe data baru setelah hadirnya (es6) yang digunakan sebagai pengenal properti objek.	 
+
+// Tipe data String di JavaScript
+const firstName = "Achmad";
+const lastName = "Fauzi";
+let nickName = "amet";
+
+// Tipe data Number di JavaScript
+let age = 18;
+const familyMembers = 4;
+const child = 4;
+
+// Tipe data Boolean di JavaScript
+let jobStatus = False;
+let areSingle = True;
+let areMuslim= False;
+
+// Tipe data Arrays di JavaScript
+const membersFamily = [Bambang,Eko,Irul,Fauzi];
+let hobbies = [coding,catur,futsal];
+
