@@ -1,4 +1,6 @@
 # New Vim Configuration
+
+# Bagian 1
 `
 You can add the link anywhere in 
 the document that best suits 
