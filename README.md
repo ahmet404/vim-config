@@ -25,6 +25,6 @@ heading in the link place, we cannot add spaces. So, to replace the space,
 we have inserted the dash (-) symbol between the two words as
 `
 Konfigurasi ini untuk raspberry pi 4<br>
-[Section Link 1](#bagian-1)<br>
+[Bagian 1](#bagian-1)<br>
 Disuatu hari tanpa sengaja kita bertemu<br>
 aku yang pernah terluka
