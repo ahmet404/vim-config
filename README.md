@@ -30,8 +30,8 @@ Superscript 100<sup>3</sup>
 #include <stdio.h>
 
 int main() {
-        printf("Hello World");
-        return 0;
+    printf("Hello World!);
+    return 0;
 }
 ```
 
