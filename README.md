@@ -13,7 +13,9 @@ Heading 2
 
 ## Format Teks
 **Ini tulisan bold**  
-__Ini Juga tulisan bold__
+__Ini Juga tulisan bold__  
+*Ini tulisan italic*  
+_ Ini juga tulisan italic _
 
 
 
