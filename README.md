@@ -6,10 +6,15 @@
 ###### Heading 6
 
 Heading 1
-=
+===
 
 Heading 2
 ---------
+
+## Format Teks
+**Ini tulisan bold
+__Ini Juga tulisan bold
+
 
 
 # New Vim Configuration
