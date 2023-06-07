@@ -13,9 +13,9 @@ Heading 2
 
 ## Format Teks
 **Ini tulisan bold**  
-__Ini Juga tulisan bold__  
+__Ini Juga tulisan bold__<br>
 *Ini tulisan italic*  
-_Ini juga tulisan italic_  
+_Ini juga tulisan italic_\
 ~~Tulisan dicoret~~  
 **Ini tulisan Nested antara bold _dan italic_**  
 ***Semua tulisan Bold dan Italic***  
