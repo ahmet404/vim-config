@@ -37,9 +37,9 @@ int main() {
 ```
 
 ````
-```
+`
 Memperlihatkan backtick
-```
+`
 ````
 
 # New Vim Configuration
