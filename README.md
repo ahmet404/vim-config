@@ -26,6 +26,7 @@ Superscript 100<sup>3</sup>
 
 `#include <stdio.h>` contoh quoting code  
 
+Contoh pemformatan blok code
 ```
 #include <stdio.h>
 
@@ -34,6 +35,12 @@ int main() {
     return 0;
 }
 ```
+
+````
+```
+Memperlihatkan backtick
+```
+````
 
 # New Vim Configuration
 
