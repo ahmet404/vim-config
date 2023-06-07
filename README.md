@@ -15,7 +15,14 @@ Heading 2
 **Ini tulisan bold**  
 __Ini Juga tulisan bold__  
 *Ini tulisan italic*  
-_ Ini juga tulisan italic _
+_Ini juga tulisan italic_  
+~~Tulisan dicoret~~  
+**Ini tulisan Nested antara bold _dan italic_**  
+***Semua tulisan Bold dan Italic***  
+Subscript 50<sub>2</sub>  
+Superscript 100<sup>3</sup>
+
+
 
 
 
