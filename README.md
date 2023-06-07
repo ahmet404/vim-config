@@ -26,7 +26,14 @@ Superscript 100<sup>3</sup>
 
 `#include <stdio.h>` contoh quoting code  
 
+```
+#include <stdio.h>
 
+int main() {
+        printf("Hello World");
+        return 0;
+}
+```
 
 # New Vim Configuration
 
