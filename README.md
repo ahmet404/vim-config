@@ -12,8 +12,9 @@ Heading 2
 ---------
 
 ## Format Teks
-**Ini tulisan bold**
+**Ini tulisan bold**  
 __Ini Juga tulisan bold__
+
 
 
 
