@@ -20,7 +20,9 @@ _Ini juga tulisan italic_\
 **Ini tulisan Nested antara bold _dan italic_**  
 ***Semua tulisan Bold dan Italic***  
 Subscript 50<sub>2</sub>  
-Superscript 100<sup>3</sup>
+Superscript 100<sup>3</sup>  
+H^2^O  
+H~3~B
 
 > Ini contoh quoting text  
 
