@@ -229,3 +229,7 @@ A --> C(Round Rect)
 B --> D{Rhombus}
 C --> D
 ```
+
+*[HTML]: Hyper Text Markup Language
+The HTML specification is maintained by the W3C.
+
